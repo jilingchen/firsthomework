@@ -38,9 +38,10 @@ app.get('/v1', routes.hello1);
 app.get('/v2', routes.hello2);
 app.get('/v3', routes.hello3);
 app.get('/v4', routes.hello4);
-//app.get('/:v5', routes.hello5);
 app.get('/v6', routes.hello6);
 app.post('/v6', routes.hello67);
+app.get('/:v5', routes.hello5);
+
 /*app.get('/u/:user',routes.user);
 app.get('/post1',routes.post);
 app.get('/reg',routes.reg);

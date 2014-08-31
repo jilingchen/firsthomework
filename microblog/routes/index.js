@@ -39,7 +39,6 @@ exports.hello4=function(req,res){
 exports.hello5=function(req,res){
   console.log(req.query.q);
   res.render('hello5', { title1: req.query.q})
-  next();
 };
 exports.hello6=function(req,res){
   res.render('hello6', { title: 'Hello World' });
